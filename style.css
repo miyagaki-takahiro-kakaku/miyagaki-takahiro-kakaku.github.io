@@ -2,7 +2,6 @@ html,body{
     margin:0;
     padding:0;
     
-    font-family:'DIN Next W01 Light';
 }
 p#top{
     font-size: 80px;
@@ -22,10 +21,23 @@ p#top{
 }
 #kotss{
     background:url('img/kotss.png') no-repeat;
-    background-size: contain;
+    background-size: cover;
     height:240px;
 }
-p#title{
+#fig2{
+    background:url('img/fig2.png') no-repeat;
+    background-size: cover;
+    height:240px;
+}
+#zn{
+    background:url('img/zn.png') no-repeat;
+    background-size: cover;
+    height:240px;
+}
+.row{
+   
+}
+h1{
     margin:0;
     padding:0;
     font-family:'DIN Next W01 Bold';
