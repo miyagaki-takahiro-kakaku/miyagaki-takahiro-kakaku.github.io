@@ -1,0 +1,32 @@
+html,body{
+    margin:0;
+    padding:0;
+    
+    font-family:'DIN Next W01 Light';
+}
+p#top{
+    font-size: 80px;
+    line-height:90px;
+    font-family:'DIN Next W01 Bold';
+}
+#iam{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+    background-image: url(img/iam.jpg);
+    background-size:contain;
+    margin-top:50%;
+    padding-top: -50px;
+    border:3px #fff solid;
+    box-shadow:0 0 3px #000;
+}
+#kotss{
+    background:url('img/kotss.png') no-repeat;
+    background-size: contain;
+    height:240px;
+}
+p#title{
+    margin:0;
+    padding:0;
+    font-family:'DIN Next W01 Bold';
+}
