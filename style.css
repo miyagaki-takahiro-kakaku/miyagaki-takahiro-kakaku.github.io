@@ -90,13 +90,15 @@ a:hover{
 th{
     font-size:17px;
 }
-td{
-    font-size:12px;
+td,li{
+    font-size:13px;
 }
-h3{
-    font-size:15px;
-    font-weight:900;
-}
+
 ul{
     padding:0;
+}
+#sub{
+    text-align:right;
+     font-size:15px;
+    font-weight:900;
 }
