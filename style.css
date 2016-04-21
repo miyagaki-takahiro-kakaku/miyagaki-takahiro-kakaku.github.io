@@ -57,6 +57,9 @@ p.top{
 #zn{
     background:url('img/zn.png') no-repeat;
 }
+#edm{
+    background:url('img/edm.jpg') no-repeat;
+}
 .row{
     margin-bottom:60px;
 }
