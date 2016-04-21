@@ -81,7 +81,7 @@ h1{
     content:"";
 }
 a:hover{
-       opacity: .75; 
+    opacity: .75; 
 	filter: alpha(opacity=75); 
 	-ms-filter: "alpha(opacity=75)"; 
 	-khtml-opacity: .75;
