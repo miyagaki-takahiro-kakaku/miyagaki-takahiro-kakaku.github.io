@@ -5,12 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Sample</title>
-    <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Raleway:100,500,800,900' rel='stylesheet' type='text/css'>
 </head>
@@ -23,6 +20,7 @@
         </ul>
     </header>
     <div class="container-fluid">
+        
          <div class="row">
             <div class="col-md-3 col-md-offset-2" id="pagetitle">
                 <span>ABOUT</span>
@@ -33,7 +31,14 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 col-md-offset-2">
+            <div class="col-md-2 col-md-offset-2 about">
+                <div id="sub">
+                    <span class="glyphicon glyphicon-hand-down" aria-hidden="true"></span>
+                </div>
+                <img src="img/iam.jpg" width=100 height=100/>
+            </div>
+
+            <div class="col-md-2 about">
                 <div id="sub">
                     <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>INTERESTING:
                 </div>
@@ -44,11 +49,8 @@
                     <li>SCI-FI</li>
                 </ul>
             </div>
-        </div>
-        
-        <div class="row">
             
-            <div class="col-md-3 col-md-offset-2">
+            <div class="col-md-6 about">
                 <div id="sub">
                     <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>LIKE:
                 </div>
