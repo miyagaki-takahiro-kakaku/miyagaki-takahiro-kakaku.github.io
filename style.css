@@ -5,36 +5,17 @@ html,body{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
-table{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+
+/*--- common ---*/
+ul{
+    padding:0;
 }
-p.top{
-    line-height:100px;
-      font-family: 'Raleway', sans-serif;
-      font-size: 40px;
-      letter-spacing: .1em;
-    vertical-align: middle;
-    color:#000;
-    font-weight: 100;
-    margin:0;
-}
-
-#gt{
-    text-align: center;
-}
-#iam{
-
-    background-image: url(img/iam.jpg);
-    background-size:contain;
-    background-repeat:no-repeat;
-    height:100px;
-
-
+.nav>li{
+    font-weight: 800;
+    letter-spacing: .1em;
 }
 #pagetitle{
     margin-top:30px;
-  
 }
 #pagetitle>span{
     font-family: 'Raleway', sans-serif;
@@ -50,6 +31,23 @@ p.top{
     text-align: center;
     line-height: 88px;
 }
+.top{
+    line-height:100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    letter-spacing: .1em;
+    vertical-align: middle;
+    color:#000;
+    font-weight: 100;
+    margin:0;
+}
+#name{
+    line-height:50px;
+    text-align:center;
+    margin-top:30px;
+}
+
+/*--- works ---*/
 #kotss{
     background:url('img/kotss.png') no-repeat;
 }
@@ -65,20 +63,10 @@ p.top{
 .row{
     margin-bottom:60px;
 }
-h1{
-    margin:0;
-    padding:0;
-    font-family:'Helvetica LT W01 Light';
-}
 .thumb{
     background-size: cover !important;
     height:240px;
     margin-bottom: 20px;
-}
-#int,#like{
-    list-style-type: none;
-    font-size:16px;
-    line-height: 24px;
 }
 .thumb>a{
     display: block;
@@ -86,40 +74,29 @@ h1{
     height:100%;
     content:"";
 }
-a:hover{
-    opacity: .75; 
-	filter: alpha(opacity=75); 
-	-ms-filter: "alpha(opacity=75)"; 
-	-khtml-opacity: .75;
-	-moz-opacity: .75; 
-}
 th{
-    font-size:17px;
+    font-size:16px;
 }
 td,li{
     font-size:13px;
 }
 
-ul{
-    padding:0;
-}
-#sub{
-
-     font-size:15px;
-    font-weight:900;
-}
-#name{
- line-height:50px;   
- text-align:center;
-  margin-top:30px;
+/*--- about ---*/
+#iam{
+    background-image: url(img/iam.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    height:100px;
 }
 .about{
     margin-bottom:30px;
 }
-.nav>li{
-    font-weight: 800;
-    letter-spacing: .1em;
+.about>ul{
+    list-style-type: none;
+    font-size:16px;
+    line-height: 24px;
 }
-td:nth-of-type(1){
-    width:200px;
+#sub{
+    font-size:15px;
+    font-weight:900;
 }
